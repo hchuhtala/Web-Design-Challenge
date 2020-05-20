@@ -5,10 +5,11 @@ style.css
     margin-bottom: 0;
     border-radius: 0;
     background-color: #f03827;
+    color: #f1f1f1;
   }
   
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 450px}
+  .row.content {height: 600px} 
   
   /* Set gray background color and 100% height */
   .sidenav {
@@ -20,14 +21,14 @@ style.css
   /* Set black background color, white text and some padding */
   footer {
     background-color: #f03827;
-    color: white;
+    color: #f1f1f1;
     padding: 15px;
   }
 
   /*Make dropdox vert */
   .dropdown-menu{
     vertical-align: auto;
-    
+
   }
   
   /* On small screens, set height to 'auto' for sidenav and grid */
