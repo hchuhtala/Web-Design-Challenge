@@ -1,10 +1,12 @@
 style.css
 
- /* Remove the navbar's default margin-bottom and rounded borders */ 
+ /* Remove the navbar's default margin-bottom and rounded borders  */
  #nav {position: sticky;
       top: 0;
  }
  
+ .icon-bar {color: black;}
+
  .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -16,17 +18,7 @@ style.css
 
  }
 
- /* .content1 {
-  background-color: #f1f1f1;
-  height: 100%;
-  display: table; */
- }
- 
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content2 {
-    height: 100%
 
-  } 
   
   #hu {
     text-align: left;
@@ -36,16 +28,9 @@ style.css
     padding-top: 20px;
     background-color: #f1f1f1;
     height: 100%;
-    /* display: table-cell; */
-    /* float: none; */
+
   }
   
-  /* Set black background color, white text and some padding */
-  footer {
-    background-color: #f03827;
-    color: #f1f1f1;
-    padding: 15px;
-  }
 
   /*Make dropdox vert */
   .dropdown-menu{
