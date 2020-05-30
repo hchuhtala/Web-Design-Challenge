@@ -11,6 +11,11 @@ style.css
     background-color: lightblue;
  }
 
+ .stretched-link {
+    color: white;
+
+ }
+
  /* .content1 {
   background-color: #f1f1f1;
   height: 100%;
