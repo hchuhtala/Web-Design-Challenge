@@ -57,14 +57,47 @@
       </div>
     </div>
     <div class="col-md-8 text-left"> 
-      <h1>Summary</h1>
+      <h1>Analysis Summary</h1>
+      <h3>Temperature and Humidity vs Latitude</h3>
       <p>   To decern if there are patterns in the temperature and humidity and latitude a snapshot of weather data was taken and plotted. Latitude and longitude coordinates were randomly generated and then CitiPy was used to find the closest city. Weather data was pulled on April 16th, 2020 from OpenWeatherMap API for 564 cities. The plots were broken into Northern and Southern hemisphere to clarify possible relationships.</p>
-      <hr>
-      <h3>Test</h3>
-      <img src="https://placehold.it/600x400" alt="Haley Huhtala Headshot">
-      <br></br>
       <p>   There is a strong correlation between temperature and latitude, but humidity did not have a strong correlation with latitude. Looking at the temperature data resulted in linear regressions with correlation coefficients of 0.7 and 0.89, for Southern and Northern respectively. This means a line is a good fit for the data. The correlation was negative for the Northern Hemisphere and positive for the Southern Hemisphere. This result is consistent with the general knowledge that locations near the equator, smaller absolute degrees latitude, tend to be warmer. To strengthen this analysis, much more data would have to be analyzed over long time periods and over truly random coordinates, not just ones were cities are. The linear regressions run for humidity in each hemisphere resulted in regressions with correlation coefficients well below 0.5 signifying a line is not a good fit for the data. Humidity may be a weather phenomenon that is more dependent on current atmospheric conditions, land or water formations, and many other factors that cannot be simply tied to latitude. </p>
+
+      <div class="container">    
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Plot 1</div>
+              <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+            </div>
+          </div>
+          <div class="col-sm-2"> 
+            <div class="panel panel-primary">
+              <div class="panel-heading">Plot 2</div>
+              <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+            </div>
+          </div>
+          <div class="col-sm-2"> 
+            <div class="panel panel-primary">
+              <div class="panel-heading">Plot 3</div>
+              <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Plot 4</div>
+              <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
     </div>
+
     <div class="col-md-2 sidenav">
       <div class="well">
           <p><a href="Plot_1.html">First Plot</a></p>
